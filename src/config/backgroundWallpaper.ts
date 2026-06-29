@@ -6,7 +6,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	// 是否允许用户通过导航栏切换壁纸模式
 	// 且同时维护多种壁纸模式过于复杂（已经屎山代码），在切换时有时候可能会出现一些奇怪的过渡效果或者bug
 	// 推荐只选择自己喜欢的模式并关闭切换功能
-	switchable: false,
+	switchable: true,
 	// 是否启用背景视频播放，配置后将在导航栏显示视频播放按钮
 	playerEnable: true,
 	/**
@@ -43,12 +43,10 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
+			"assets/images/DesktopWallpaper/blood/672393.jpg",
+			"assets/images/DesktopWallpaper/blood/747330.jpg",
+			"assets/images/DesktopWallpaper/steins/224763.jpg",
+			"assets/images/DesktopWallpaper/steins/567696.png",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
@@ -81,17 +79,15 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "Εὕρηκα!",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"Nur der verdient sich Freiheit wie das Leben, Der täglich sie erobern muß.",
+				"有为者岿然看定四周，这世界对他几曾沉默！",
+				"Grau, teurer Freund, ist alle Theorie, Und grün des Lebens goldner Baum.",
+				"Il n'y a qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer.",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",

@@ -28,7 +28,7 @@ export const siteConfig: SiteConfig = {
 	// 主题色
 	themeColor: {
 		// 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		hue: 250,
+		hue: 260,
 		// 是否对访问者隐藏主题色选择器
 		fixed: false,
 		// 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
@@ -178,7 +178,7 @@ export const siteConfig: SiteConfig = {
 		// Bilibili 配置
 		bilibili: {
 			// 你的 Bilibili 用户 UID
-			uid: "38932988",
+			uid: "75905712527",
 		},
 		// TMDB 配置（可选，需要翻墙）
 		// tmdb: {
