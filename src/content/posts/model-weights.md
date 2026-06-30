@@ -1,12 +1,12 @@
 ---
-title: 模型参数量的计算
+title: 模型权重的计算
 published: 2026-06-30
 description: 详解 Transformer Attention 机制和卷积层的参数量计算公式，涵盖 MSA、标准卷积及其常见变体。
 tags: [AI, 模型参数量, Transformer, CNN]
 category: tech blog
 draft: false
 ---
-对于 MLP 的参数量不再做赘述，这里主要谈 Attention 和卷积层的权重计算。
+对于 MLP 的权重不再做赘述，这里主要谈 Attention 和卷积层的权重计算。
 
 ## Attention
 
