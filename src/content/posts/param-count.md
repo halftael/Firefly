@@ -1,5 +1,5 @@
 ---
-title: 模型参数量计算：推理与训练的内存占用
+title: 模型参数量计算
 published: 2026-06-30
 description: 详解模型推理和训练时的参数量与显存占用计算，涵盖 KV Cache、混合精度训练、AdamW 优化器及 LoRA 微调的内存分析。
 tags: [AI, 模型参数量, 显存, KV Cache, LoRA]
