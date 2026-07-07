@@ -1,5 +1,5 @@
 ---
-title:
+title: VLA Dataset Format
 draft: false
 tags:
   - AI/Embodded
@@ -31,6 +31,7 @@ episode和dataset的类型都是`tf.data.Dataset`,而step是一个`dict`.
 ## LeRobot v3.0
 
 LeRobot提供了对RLDS的具体实现，其结构如下所示：
+
 ```bash
 dataset/
 ├── meta/
@@ -51,10 +52,6 @@ dataset/
 
 可见主要是把数据的大块分为两类： 本体感知数据和动作都放到parquet里面， 图片数据整合成一个视频
 
-
->[!note]  对比LLM
+> [!note] ✏️ 对比LLM
 > 这里的一个Episode 相当于大语言模型的一个文档
 > 现在的VLA需要我们后续对他做tokenize
-
-
-
